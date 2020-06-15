@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>PROOF OF BAKE</title>
+	<meta name="description" content=""/>
+	<meta name="keywords" content="Proof of bake"/>
+	<link href="https://fonts.googleapis.com/css?family=Anton|Roboto:400|Lato:400,700,900|Open+Sans:400,600,700|Economica:400,700|Work+Sans:400,500,600,700,800,900|Nunito:400&display=swap" rel="stylesheet">
+	<link rel="icon" href="images/favicon.png" type="image/gif">
+	<link rel="stylesheet" href="./css/owl.carousel.min.css">
+	<link rel="stylesheet" href="./css/owl.theme.default.min.css">
+	<link href="./css/datatables.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/dd.css" />
+	<link rel="stylesheet" type="text/css" href="css/flags.css" />
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="https://kit.fontawesome.com/f17b18449a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<!-- site preloader -->
+        <!-- <div id="snt-sitepreloader-wrapper">
+                <div id="snt-loader"></div>
+                <div class="snt-loader-section">
+                        <img src="./images/Logo.svg" alt="proof of bake logo">
+                </div>
+            </div> -->
+            <!-- site preloader ends here -->
+            <header>
+            	<nav class="navbar navbar-expand-md navbar-dark navbar-bg-black">
+            		<div class="container">
+            			<a class="navbar-brand logo" href="./index.html">
+            				<h3>Avalanche . Capital</h3>
+            			</a>
+            			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#headerMenu" aria-controls="headerMenu" aria-expanded="false" aria-label="Toggle navigation">
+            				<span class="navbar-toggler-icon"></span>
+            			</button>
+            			<div class="collapse navbar-collapse" id="headerMenu">
+            				<ul class="navbar-nav ml-auto">
+            					<li class="nav-item active">
+            						<a class="nav-link" href="#how-it-works">How it works</a>
+            					</li>
+            					<li class="nav-item">
+            						<a class="nav-link" href="#payout-history">Payout history</a>
+            					</li>
+            					<li class="nav-item">
+            						<a class="nav-link" href="#calculate-reward">Calculate reward</a>
+            					</li>
+            					<li class="nav-item">
+            						<a class="nav-link" href="#FAQ">FAQ</a>
+            					</li>
+            				</ul>
+            				<span class="navbar-text">
+            					<select name="countries" id="countries">
+            						<option value='us' data-image="images/icons/blank.gif" data-imagecss="flag us" data-title="Netherlands Antilles">EN</option>
+            						<option value='ca' data-image="images/icons/blank.gif" data-imagecss="flag ca" data-title="Netherlands Antilles">CA</option>
+            					</select>    
+            				</span>
+            			</div>
+            		</div>
+            	</nav>
+            </header>
+            <!-- hero section -->
+            <section class="herowrapper relative wrap">
+            	<div class="container relative">
+            		<div class="row">
+            			<div class="col-md-6 col-lg-5">
+            				<div class="title-wrap">
+            					<h1>The world’s best AVA staking service</h1>
+            				</div>
+            				<div class="text-box">
+            					<p>We  enable you to earn a ~6.50% nominal yield per year on your AVA holdings. </p>
+            				</div>
+            				<div class="button-wrap">
+            					<a href="javascript:void(0)">
+            						<button class="btn btn-primary btn-bot btn-sm">
+            							 Payouts bot
+            						</button>
+            					</a>
+            					<a href="javascript:void(0)">
+            						<button class="btn btn-sm btn-join btn-primary-outline">
+            							<img src="./images/icons/fly_1.svg" alt=""> Join Telegram
+            						</button>
+            					</a>
+            				</div>
+            			</div>
+            			<div class="col-md-6 col-lg-7 hero-img-wrap">
+            				<img id="heroImg" src="./images/hero image1.png" alt="proof of bake hero image">
+            			</div>
+            		</div>
+            	</div>
+            	<div class="capacity-wrapper">
+            		<div class="content-wrapper">
+            			<div class="progress-bar-wrap relative">
+            				<div class="label-wrap">
+            					<label class="available-label">AVAILABLE CAPACITY</label>
+            					<label class="total-label">TOTAL CAPACITY</label>
+            				</div>
+            				<div class="progress">
+            					<div class="progress-bar" role="progressbar" style="width: 36%" aria-valuenow="36" aria-valuemin="0" aria-valuemax="100"></div>
+            				</div>
+            				<div class="count-wrap">
+            					<label class="available-count">552656&#42793;</label>
+            					<label class="total-count">5526564&#42793;</label>
+            				</div>
+            			</div>
+            			<div class="content-box">
+            				<div class="row">
+            					<div class="col-sm-9">
+            						<p class="break-all" id="track-code">tzds87f87sd9f8f76s8f67a9s7f687fds</p>
+            						<span>DELEGATE ADDRESS</span>
+            					</div>
+            					<div class="col-sm-3">
+            						<div class="button-wrap text-right">
+            							<button class="btn btn-blue btn-sm btn-copy" onclick="copyToClipboard('#track-code')" id="copyTextBtn">Copy</button>
+            						</div>
+            					</div>
+            				</div>
+            			</div>
+            			<div class="button-wrap">
+            				<a href="javascript:void(0)">
+            					<button class="btn btn-md btn-block btn-primary btn-visit">Visit us on TzStats <img src="./images/icons/right arrow.png" alt="proof of bakes right arrow"></button>
+            				</a>
+            			</div>
+            		</div>
+            	</div>
+            </section>
+            <!-- hero section ends -->
+            <section class="trusted-partners wrap">
+            	<div class="container">
+            		<div class="row partners-row">
+            			<div class="col-md-6 owl-carousel" id="partners-carousel">
+            				<div class="partners-div">
+            					<div class="black-box left-side">
+            						<div class="img-wrap">
+            							<img src="./images/icons/nike.png" alt="proof of bake nike image" id="nike-icon">
+            						</div>
+            						<div class="text-box">
+            							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim.</p>
+            						</div>
+            					</div>
+            					<div class="black-box right-side">
+            						<div class="img-wrap">
+            							<img src="./images/icons/NP.png" alt="proof of bake NP image" id="np-icon">
+            						</div>
+            						<div class="text-box">
+            							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim.</p>
+            						</div>
+            					</div>
+            				</div>
+            				<div class="partners-div">
+            					<div class="black-box left-side">
+            						<div class="img-wrap">
+            							<img src="./images/icons/google.png" alt="proof of bake nike image" id="google-icon">
+            						</div>
+            						<div class="text-box">
+            							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim.</p>
+            						</div>
+            					</div>
+            					<div class="black-box right-side">
+            						<div class="img-wrap">
+            							<img src="./images/icons/microsoft.png" alt="proof of bake NP image" id="microsoft-icon">
+            						</div>
+            						<div class="text-box">
+            							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim.</p>
+            						</div>
+            					</div>
+            				</div>
+            			</div>
+            			<div class="col-md-6">
+            				<div class="content-wrapper">
+            					<div class="title-wrap">
+            						<span>PARTNERS</span>
+            						<h2>We have dozens of trusted partners worldwide</h2>
+            					</div>
+            					<div class="text-box">
+            						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim.</p>
+            					</div>
+            					<div class="button-wrap">
+            						<a href="javascript:void(0)">
+            							<button class="btn btn-primary btn-bot btn-sm">
+            								 Payouts bot
+            							</button>
+            						</a>
+            					</div>
+            				</div>
+            			</div>
+            		</div>
+            	</div>
+            </section>
+            <!-- partners section ends here -->
+            <!-- how it works section -->
+            <section class="how-it-works wrap" id="how-it-works">
+            	<div class="container">
+            		<div class="title-wrap">
+            			<h2>How it works</h2>
+            			<h5>The visual guide will provide a view to the customer of what their website or project will end up looking like.</h5>
+            		</div>
+            	</div>
+            	<div class="container how-it-works-steps-wrapper">
+            		<div class="img-wrap">
+            			<img src="./images/how-it-work img.svg" alt="proof of bake working image" class="hide-mobile">
+            			<div class="text-block">
+            				<div class="img-wrap pen-drive">
+            					<p class="text text-first">Transfer your Tezos to a wallet that supports staking, preferably to a hardware wallet like Ledger Nano S</p>
+            				</div>
+            				<div class="img-wrap lapy">
+            					<p class="text text-second">Copy the the delegate address on this page and insert it into the wallet to start delegation to our infrastructure</p>
+            				</div>
+            				<div class="img-wrap money">
+            					<p class="text text-third">Start receiving automated dividend payouts every 3 days. Keep yourself informed about the progress using our telegram bot.</p>
+            				</div>
+            				<div class="img-wrap pocket">
+            					<p class="text text-fourth">Earn a yearly dividend of 6 - 6.5% on your coins.</p>
+            				</div>
+            			</div>
+            		</div>
+            	</div>
+            </section>
+            <!-- how it works section ends here -->
+            <!-- why choose us section -->
+            <section class="why-choose-us wrap">
+            	<div class="container">
+            		<div class="box d-flex">
+            			<div class="top-side">
+							<div class="title-wrap">
+            					<h2>Why choose Avalanche.Capital</h2>
+							</div>
+							<div class="img-wrap">
+            					<img src="./images/Why.svg" alt="proof of bake person image">
+            				</div>
+            				
+            				
+            			</div>
+            			<div class="bottom-side">
+							<div class="black-box-card">
+            					<div class="row m-0">
+            						<div class="left">
+            							<img src="./images/icons/gold_star.png" alt="proof of bake star icon">
+            						</div>
+            						<div class="right">
+            							<h4>Immediate payouts</h4>
+            							<p>Lorem ipsum dolor sit amet, consect adipisicing elit.</p>
+            						</div>
+            					</div>
+            				</div>
+            				<div class="black-box-card">
+            					<div class="row m-0">
+            						<div class="left">
+            							<img src="./images/icons/gold_star.png" alt="proof of bake star icon">
+            						</div>
+            						<div class="right">
+            							<h4>Payout every 2.8 day</h4>
+            							<p>Lorem ipsum dolor sit amet, consect adipisicing elit.</p>
+            						</div>
+            					</div>
+            				</div>
+							
+            				<div class="black-box-card">
+            					<div class="row m-0">
+            						<div class="left">
+            							<img src="./images/icons/green-star.png" alt="proof of bake star icon">
+            						</div>
+            						<div class="right">
+            							<h4>Low 8% fee</h4>
+            							<p>Lorem ipsum dolor sit amet, consect adipisicing elit.</p>
+            						</div>
+            					</div>
+            				</div>
+            				<div class="black-box-card">
+            					<div class="row m-0">
+            						<div class="left">
+            							<img src="./images/icons/green-star.png" alt="proof of bake star icon">
+            						</div>
+            						<div class="right">
+            							<h4>High efficiency</h4>
+            							<p>Lorem ipsum dolor sit amet, consect adipisicing elit.</p>
+            						</div>
+            					</div>
+            				</div>
+            			</div>
+            		</div>
+            	</div>
+            </section>
+            <!-- why choose us section ends here-->
+            <!-- payment history section  -->
+            <section class="payment-history wrap" id="payout-history">
+            	<div class="container">
+            		<div class="black-box">
+            			<div class="title-wrap">
+            				<h3>Check payout history</h3>
+            			</div>
+            			<div class="text-box">
+            				<p>Please enter your &#42793; address in the box below and click on the button.</p>
+            			</div>
+            			<form action="" id="show-form">
+            				<div class="table-searchfield-wrapper">
+            					<input type="text" class="form-control ml-0 pl-2" id="searchNameField" placeholder="Name" value="tzds87f87sd9f8f76s8f67a9s7f687fds"/>
+            					<a href="./payout-history.html"><button id="searchButton" type="button" class="btn btn-sm btn-primary">
+            						Show me
+            					</button></a>
+            				</div>
+            			</form>
+            			<p class="small">This is 100% safe and secure.</p>
+            		</div>
+            	</div>
+            </section>
+            <!-- payment history section ends here -->
+            <section class="earning-calc wrap" id="calculate-reward">
+            	<div class="container">
+            		<div class="row align-items-center">
+            			<div class="col-md-7 col-lg-6">
+            				<div class="title-wrap">
+            					<h3>Calculate your earning</h3>
+            				</div>
+            				<form action="" id="calc-earning">
+            					<div class="field-wrap">
+            						<div class="form-group">
+            							<label for="amount">Initial amount</label>
+            							<input name="amount" type="text" class="form-control" placeholder="Initial amount" value="1000" required>
+            						</div>
+            						<div class="form-group year-form-group">
+            							<label for="years">Number of years</label>
+            							<input name="years" maxlength="20" type="text" class="form-control" placeholder="Years" value="5" required>
+            						</div>
+            						<div class="form-group">
+            							<button class="btn btn-primary btn-calc">Calculate</button>
+            						</div>
+            					</div>
+            				</form>
+            				<div class="text-box">
+            					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.</p>
+            				</div>
+            			</div>
+            			<div class="col-md-5 col-lg-6">
+            				<div class="result-wrap">
+            					<canvas id="lineChart" width="100%"></canvas>
+            				</div>
+            			</div>
+            		</div>
+            	</div>
+            </section>
+            <!-- faq section -->
+            <section class="faq wrap" id="FAQ">
+            	<div class="container relative">
+            		<div class="row">
+            			<div class="col-md-6 unset-position">
+            				<div class="img-wrap">
+            					<img src="./images/FAQ.svg" alt="proof of bake faq image">
+            				</div>
+            			</div>
+            			<div class="col-md-6">
+            				<div class="title-wrap">
+            					<h3>FAQs</h3>
+            				</div>
+            				<div class="accordion-wrapper">
+            					<div class="accordion" id="accordionExample">
+            						<div class="card">
+            							<div class="card-header" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" id="headingOne">
+            								<h6>What is ProofofBake?</h6>
+            							</div>
+            							<div id="collapseOne" class="collapse content-body show" aria-labelledby="headingOne" data-parent="#accordionExample">
+            								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+            							</div>
+            						</div>
+            						<div class="card">
+            							<div class="card-header collapsed" id="headingTwo" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            								<h6>How can I trust you?</h6>
+            							</div>
+            							<div id="collapseTwo" class="collapse content-body" aria-labelledby="headingTwo" data-parent="#accordionExample">
+            								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+            							</div>
+            						</div>
+            						<div class="card">
+            							<div class="card-header collapsed" id="headingThree" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            								<h6>Are there any other bakers you are affiliated to?</h6>
+            							</div>
+            							<div id="collapseThree" class="collapse content-body" aria-labelledby="headingThree" data-parent="#accordionExample">
+            								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+            							</div>
+            						</div>
+            					</div>
+            				</div>
+            			</div>
+            		</div>
+            	</div>
+            </section>
+            <footer>
+            	<div class="container">
+            		<div class="wrap">
+            			<div class="left">
+            				<div class="img-wrap">
+            					<a href="index.html" class="logo">
+									<h3>Avalanche . Capital</h3>
+            					</a>
+            				</div>
+            			</div>
+            			<div class="center">
+            				<div class="img-wrap">
+            					<img src="./images/dought.png" alt="">
+            				</div>
+            				<div class="calulated">
+            					1&#42793; = $1.70<span>|</span>Block = 806,004
+            				</div>
+            			</div>
+            			<div class="right">
+            				<div class="social">
+            					<a href="javascript:void(0)"><img src="./images/icons/fly.png" alt=""></a>
+            					<a href="javascript:void(0)"><img src="./images/icons/face.png" alt=""></a>
+            					<a href="javascript:void(0)"><img src="./images/icons/twi.png" alt=""></a>
+            					<a href="javascript:void(0)"><img src="./images/icons/inst.png" alt=""></a>
+            					<a href="javascript:void(0)"><img src="./images/icons/link.png" alt=""></a>
+            				</div>
+            			</div>
+            		</div>
+            	</div>	
+            	<div class="copyright">
+            		<div class="container">
+            			<p>Copyright © 2020 ProofOfBake</p>
+            		</div>
+            	</div>
+            </footer>
+            <script src="js/jquery-3.3.1.min.js"></script>
+            <script src="js/bootstrap.min.js"></script>
+            <script type="text/javascript" src="./js/datatables.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@14/dist/smooth-scroll.polyfills.min.js"></script>
+            <script src="./js/owl.carousel.min.js"></script>
+            <script src="./js/jquery.dd.js"></script>
+            <script src="./js/script.js"></script>
+            <script>
+				
+            	$('#partners-carousel').owlCarousel({
+            		animateOut: 'fadeOut',
+            		items:1,
+            		smartSpeed:5000,
+            		loop:true,
+            		nav:false,
+            		autoplay:true,
+					autoplayTimeout:5000,
+					autoplayHoverPause:false
+            	});
+            	var scroll = new SmoothScroll('a[href*="#"]', {
+            		speed: 2500
+            	});
+            	var ctx = document.getElementById('lineChart').getContext('2d');
+            	var myChart = new Chart(ctx, {
+            		type: 'line',
+            		data: {
+            			labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+            			datasets: [{
+            				label: '# of Votes',
+            				data: [12, 19, 3, 5, 2, 3],
+            				backgroundColor: [
+            				'rgba(157, 167, 189, 0.2)',
+            				'rgba(157, 167, 189, 0.3)',
+            				'rgba(157, 167, 189, 0.2)',
+            				'rgba(157, 167, 189, 0.2)',
+            				'rgba(157, 167, 189, 0.2)',
+            				'rgba(157, 167, 189, 0.2)'
+            				],
+            				borderColor: [
+            				'rgba(157, 167, 189, 0.7)',
+            				'rgba(157, 167, 189, 0.7)',
+            				'rgba(157, 167, 189, 0.7)',
+            				'rgba(157, 167, 189, 0.7)',
+            				'rgba(157, 167, 189, 0.7)',
+            				'rgba(157, 167, 189, 0.7)'
+            				],
+            				borderWidth: 1
+            			}]
+            		},
+            		responsive: true,
+            		options: {
+            			legend: {
+            				labels: {
+            					fontColor: "rgba(157, 167, 189, 1)",
+            					fontSize: 14,
+            					fontWeight: 400,
+            					fontFamily: 'Lato,sans-serif'
+            				}
+            			},
+            			scales: {
+            				yAxes: [{
+            					ticks: {
+            						fontColor: "#9DA7BD",
+            						fontSize: 14,
+            						stepSize: 1,
+            						beginAtZero: true,
+            						fontWeight: 400,
+            						fontFamily: 'Lato,sans-serif'
+            					}
+            				}],
+            				xAxes: [{
+            					ticks: {
+            						fontColor: "#9DA7BD",
+            						fontSize: 14,
+            						stepSize: 1,
+            						beginAtZero: true,
+            						fontWeight: 400,
+            						fontFamily: 'Lato,sans-serif'
+            					}
+            				}]
+            			}
+            		}
+            	});
+            </script>
+        </body>
+        </html>

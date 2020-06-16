@@ -885,12 +885,10 @@ tr{
 	width: 236px;
 	text-align: left;
 }
-} 
-tr:nth-child(even) {
-	background-color: #f2f2f2;
-}
+ 
+
 tr:nth-child(odd) {
-	background-color: #000000;
+	background-color: #101318;
 }
 
 /*calulate earning*/

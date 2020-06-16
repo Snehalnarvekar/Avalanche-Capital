@@ -47,10 +47,10 @@ img.fnone{float:none !important}
 .dd .arrow{width:16px;height:16px; margin-top:-8px; color: #FFFFFF;}
 .dd .arrow:hover{background-position:0 100%;}
 .dd .ddTitle{
-    background-color: rgba(255, 255, 255, 0.1);
-    border:none;
+    background-color: rgba(255, 255, 255, 0.06);
     border-radius: 3px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.03);
+    border:none;
     width: 112px;
     height: 44px;
     display: flex;

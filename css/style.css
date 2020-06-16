@@ -182,7 +182,7 @@ nav.navbar-dark .navbar-brand {
 	text-align: left;
 }
 #headerMenu > ul{
-	margin-right: 15px;
+	margin-right: 18px;
 }
 #headerMenu li{
 	padding:0 18px;
@@ -413,7 +413,6 @@ nav.navbar-bg-black{
 }
 h1 {
 	color: #FFFFFF;
-	text-transform: uppercase;
 	font-family: 'Nunito', sans-serif;
 	font-size: 45px;
 	font-weight: 400;
@@ -431,7 +430,7 @@ p{
 }
 .herowrapper .title-wrap{
 	padding-top: 80px;
-	padding-bottom: 15px;
+	padding-bottom: 12px;
 }
 .herowrapper .text-box {
 	width: 76%;
@@ -440,9 +439,10 @@ p{
 .btn-bot {
 	position: relative;
 	font-size: 20px;
-	padding: 13px 44px 14px 44px;
+	line-height: 20px;
+	padding: 15px 44px 15px 44px;
 	text-align: center;
-	margin-right: 12px;
+	margin-right: 10px;
 	font-weight: 700 !important;
 }
 /* .btn-bot img {
@@ -453,7 +453,7 @@ p{
 	left: 8px;
 } */
 .btn-join {
-	padding: 14px 20px 17px;
+	padding: 14px 20px 16px;
 }
 .btn-join img {
 	width: 17px;
@@ -578,8 +578,6 @@ p{
 }
 .black-box {
     background-color: #1D1D1D;
-	box-shadow: 0 2px 30px 0
-    rgba(7, 14, 21, 0.15);
     max-width: 368px;
     width: 100%;
     padding: 33px 30px;
@@ -747,8 +745,9 @@ h5{
     width: 528px;
 }
 .faq h3 {
-    font-family: 'Lato',sans-serif;
-    font-weight: 900;
+	font-family: 'Nunito', sans-serif;
+	font-size: 46px;
+    font-weight: 400;
 }
 .box .bottom-side {
 	top: 230px;
@@ -764,7 +763,7 @@ h5{
 	padding: 35px 23px;
 	max-width: 370px;
 	width: 100%;
-	margin-bottom: 30px;
+	margin-bottom: 18px;
 }
 h4{
   color: #FFFFFF;
@@ -844,6 +843,56 @@ h3 {
 	font-size: 13px;
 	line-height: 20px;
 }
+/*transaction-table */
+.transaction-table {
+	width: 100%;
+	padding-bottom: 149px;
+	border-bottom: 0;
+	background-color: #191E24;
+}
+.transaction-table .table-box table{
+	background-color: #1B2127;
+    border-radius: 6px;
+    max-width: 921px;
+    width: 100%;
+    margin: 0 auto;
+}
+}
+table {
+	border-collapse: collapse;
+	
+}
+th, td {
+	text-align: left;
+	padding: 0 0 0 29px;
+}
+th {
+	background-color: #0B0B0B;
+	color: #878787;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	line-height: 16px;
+	font-weight: 700;
+	padding: 35px 0 36px 29px;
+	text-align: left;
+} 
+tr{
+	color: #FFFFFF;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 86px;
+	width: 236px;
+	text-align: left;
+}
+} 
+tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+tr:nth-child(odd) {
+	background-color: #000000;
+}
+
 /*calulate earning*/
 .earning-calc{
 	background-color: #191E24;
